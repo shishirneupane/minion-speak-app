@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;800&display=swap');
+
+:root {
+  --banana-yellow: #FCE029;
+  --raisin-black: #231F20;
+  --off-white: #F3F4F6;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: var(--raisin-black);
+  background-color: var(--off-white);
+}
+
+/* nav */
+
+.navigation {
+  background-color: var(--banana-yellow);
+  color: var(--raisin-black);
+  font-size: large;
+  padding: 0.1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.navigation h1 {
+  font-weight: 900;
+}
+
+.navigation a {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 2.75rem;
+  color: var(--raisin-black);
+}
+
+/* container */
+
+.container {
+  max-width: 80%;
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+/* input textarea, button and output div */
+
+.container .text-box {
+  display: block;
+  height: 10vh;
+  max-width: 80%;
+  width: 500px;
+  margin: auto;
+  padding: 1rem;
+  border: 2px solid var(--raisin-black);
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+}
+
+.container #btn-translate {
+  background-color: var(--raisin-black);
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem auto 0;
+}
+
+/* footer */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  padding: 1.5rem 0.5rem;
+  background-color: var(--banana-yellow);
+  text-align: center;
+}
+
+footer #about {
+  font-size: larger;
+  font-weight: 800;
+}
+
+footer p {
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem 0.3rem 0.3rem;
+  line-height: 1.5em;
+}
