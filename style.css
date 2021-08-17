@@ -9,8 +9,11 @@
 body {
   margin: 0;
   font-family: 'Bitter', sans-serif;
-  color: var(--raisin-black);
-  background-color: var(--off-white);
+  background-image: url(/img/minions.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
 }
 
 /* nav */
@@ -39,7 +42,7 @@ body {
 /* container */
 
 .container {
-  max-width: 80%;
+  max-width: 100%;
   width: 600px;
   margin: auto;
   text-align: center;
@@ -57,16 +60,19 @@ body {
   border: 2px solid var(--raisin-black);
   font-family: 'Bitter', sans-serif;
   font-size: 1.1rem;
+  background-color: var(--off-white);
 }
 
 .container #btn-translate {
-  background-color: var(--raisin-black);
-  color: #fff;
+  background-color: var(--banana-yellow);
+  color: var(--raisin-black);
+  border: 2px solid var(--raisin-black);
   font-family: 'Bitter', sans-serif;
-  border: none;
-  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: medium;
+  border-radius: 1rem;
   padding: 1rem;
-  margin: 1rem auto 0;
+  margin: 1.5rem auto;
 }
 
 /* footer */
@@ -88,7 +94,7 @@ footer #about {
 }
 
 footer p {
-  max-width: 600px;
+  max-width: 500px;
   margin: auto;
   padding: 1rem 0.3rem 0.3rem;
   line-height: 1.5em;
