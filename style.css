@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;800&display=swap');
 
 :root {
   --banana-yellow: #FCE029;
@@ -8,7 +8,7 @@
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Bitter', sans-serif;
   color: var(--raisin-black);
   background-color: var(--off-white);
 }
@@ -55,13 +55,14 @@ body {
   margin: auto;
   padding: 1rem;
   border: 2px solid var(--raisin-black);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Bitter', sans-serif;
   font-size: 1.1rem;
 }
 
 .container #btn-translate {
   background-color: var(--raisin-black);
   color: #fff;
+  font-family: 'Bitter', sans-serif;
   border: none;
   border-radius: 0.5rem;
   padding: 1rem;
