@@ -10,5 +10,4 @@ A translation web app that will translate your sentences into banana language of
 
 ## Screenshots:
 
-![image](https://user-images.githubusercontent.com/58262449/129661883-b1172a40-e217-4f10-934a-6087bcec0abb.png)
-
+![image](https://user-images.githubusercontent.com/58262449/129739013-23734979-55f0-4f63-b5c7-6e888a2c651e.png)
