@@ -25,6 +25,7 @@ body {
   padding: 0.1rem;
   margin-bottom: 1.5rem;
   text-align: center;
+  opacity: 85%;
 }
 
 .navigation h1 {
@@ -46,6 +47,7 @@ body {
   width: 600px;
   margin: auto;
   text-align: center;
+  opacity: 90%;
 }
 
 /* input textarea, button and output div */
@@ -58,6 +60,7 @@ body {
   margin: auto;
   padding: 1rem;
   border: 2px solid var(--raisin-black);
+  border-radius: 0.5rem;
   font-family: 'Bitter', sans-serif;
   font-size: 1.1rem;
   background-color: var(--off-white);
@@ -83,9 +86,10 @@ footer {
   right: 0;
   left: 0;
   max-width: 100%;
-  padding: 1.5rem 0.5rem;
+  padding: 1rem 0.5rem;
   background-color: var(--banana-yellow);
   text-align: center;
+  opacity: 85%;
 }
 
 footer #about {
@@ -94,8 +98,9 @@ footer #about {
 }
 
 footer p {
-  max-width: 500px;
+  max-width: 100%;
+  width: 500px;
   margin: auto;
-  padding: 1rem 0.3rem 0.3rem;
+  padding: 1rem 0 0;
   line-height: 1.5em;
 }
